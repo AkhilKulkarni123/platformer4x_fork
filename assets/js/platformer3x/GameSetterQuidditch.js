@@ -17,26 +17,26 @@ import Draco from './EnemyDraco.js';
 // Define the GameSetup object literal
 const assets = {  
   obstacles: {
-    tube: { src: "/images/platformer/obstacles/tube.png",
+    tube: { src: "/images/platformer/obstacles/vacume.jpg",
     hitbox: { widthPercentage: 0.5, heightPercentage: 0.5},
     width: 300,
     height: 300,
     scaleSize: 100,
     },
-    tubeU: { src: "/images/platformer/obstacles/blue-tube-up.png",
+    tubeU: { src: "/images/platformer/obstacles/vacume.jpg",
     hitbox: { widthPercentage: 0.5, heightPercentage: 0.5},
     width: 300,
     height: 300,
     scaleSize: 100,
     },
-    tubeD: { src: "/images/platformer/obstacles/blue-tube.png",
+    tubeD: { src: "/images/platformer/obstacles/vacume.jpg",
     hitbox: { widthPercentage: 0.5, heightPercentage: 0.5},
     width: 300,
     height: 300,
     scaleSize: 100,
     },
-    coin: { src: "/images/platformer/obstacles/coin.png" },
-    snitch: { src: "/images/platformer/obstacles/snitch.png" },
+    coin: { src: "/images/platformer/obstacles/coinBag.jpg" },
+    snitch: { src: "/images/platformer/obstacles/coinBag.jpg" },
     whompingwillow: {
       src: "/images/platformer/obstacles/whompingwillowtree.png",
       hitbox: { widthPercentage: 0.5, heightPercentage: 0.5 }
@@ -51,14 +51,14 @@ const assets = {
     
   },
   backgrounds: {
-    quidditch: { src: "/images/platformer/backgrounds/quidditch2.jpg" },
+    quidditch: { src: "/images/platformer/backgrounds/bank.jpg" },
   },
   transitions: {
     waterEnd: { src: "/images/platformer/transitions/waterEnd.png" },   
   },
   players: {
     harry: {
-      src: "/images/platformer/sprites/harryanimation3.png",
+      src: "/images/platformer/sprites/robber.jpg",
       width: 32,
       height: 32,
       scaleSize: 60,
